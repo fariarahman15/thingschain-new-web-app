@@ -16,9 +16,16 @@
   </head>
   <body>
     <!-- nav bar  -->
-    <nav class="bg-white px-2 sm:px-4 py-2.5 w-full border-b">
+    <nav class="bg-white px-2 sm:px-4 py-2.5 mb-10">
       <div
-        class="container flex flex-wrap justify-between items-center mx-auto"
+        class="
+          container
+          w-full
+          flex flex-wrap
+          justify-between
+          items-center
+          mx-auto
+        "
       >
         <a href="https://flowbite.com/" class="flex items-center">
           <img
@@ -43,8 +50,8 @@
               font-medium
               rounded-lg
               text-sm
-              px-5
-              py-2.5
+              px-3
+              py-2
               text-center
               mr-3
               md:mr-0
@@ -213,301 +220,12 @@
       </div>
     </nav>
 
-    <nav
-      class="
-        px-2
-        bg-white
-        border-gray-200
-        dark:bg-gray-900
-        dark:border-gray-700
-      "
-    >
-      <div
-        class="container flex flex-wrap justify-between items-center mx-auto"
-      >
-        <a href="#" class="flex items-center">
-          <img
-            src="https://flowbite.com/docs/images/logo.svg"
-            class="mr-3 h-6 sm:h-10"
-            alt="Flowbite Logo"
-          />
-          <span class="self-center text-xl font-semibold whitespace-nowrap"
-            >Flowbite</span
-          >
-        </a>
-        <button
-          data-collapse-toggle="mobile-menu"
-          type="button"
-          class="
-            inline-flex
-            justify-center
-            items-center
-            ml-3
-            text-gray-400
-            rounded-lg
-            md:hidden
-            hover:text-gray-900
-            focus:outline-none
-            focus:ring-2 focus:ring-blue-300
-          "
-          aria-controls="mobile-menu-2"
-          aria-expanded="false"
-        >
-          <span class="sr-only">Open main menu</span>
-          <svg
-            class="w-6 h-6"
-            aria-hidden="true"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-        </button>
-        <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
-          <ul
-            class="
-              flex flex-col
-              p-4
-              mt-4
-              bg-gray-50
-              rounded-lg
-              border border-gray-100
-              md:flex-row
-              md:space-x-8
-              md:mt-0
-              md:text-sm
-              md:font-medium
-              md:border-0
-            "
-          >
-            <li>
-              <a
-                href="#"
-                class="
-                  block
-                  py-2
-                  pr-4
-                  pl-3
-                  text-black
-                  bg-blue-700
-                  rounded
-                  md:bg-transparent
-                  md:text-blue-700
-                  md:p-0
-                  md:dark:text-white
-                  dark:bg-blue-600
-                  md:dark:bg-transparent
-                "
-                aria-current="page"
-                >Home</a
-              >
-            </li>
-            <li>
-              <button
-                id="dropdownNavbarLink"
-                data-dropdown-toggle="dropdownNavbar"
-                class="
-                  flex
-                  justify-between
-                  items-center
-                  py-2
-                  pr-4
-                  pl-3
-                  w-full
-                  font-medium
-                  text-gray-700
-                  rounded
-                  hover:bg-gray-100
-                  md:hover:bg-transparent
-                  md:border-0
-                  md:hover:text-blue-700
-                  md:p-0
-                  md:w-auto
-                  dark:text-gray-400
-                  dark:hover:text-white
-                  dark:focus:text-white
-                  dark:border-gray-700
-                  dark:hover:bg-gray-700
-                  md:dark:hover:bg-transparent
-                "
-              >
-                Dropdown
-                <svg
-                  class="ml-1 w-5 h-5"
-                  aria-hidden="true"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </button>
-              <!-- Dropdown menu -->
-              <div
-                id="dropdownNavbar"
-                class="
-                  z-10
-                  w-44
-                  font-normal
-                  bg-white
-                  rounded
-                  divide-y divide-gray-100
-                  shadow
-                "
-                data-popper-reference-hidden=""
-                data-popper-escaped=""
-                data-popper-placement="bottom"
-                style="
-                  position: absolute;
-                  inset: 0px auto auto 0px;
-                  margin: 0px;
-                  transform: translate3d(395px, 66px, 0px);
-                "
-              >
-                <ul
-                  class="py-1 text-sm text-gray-700 dark:text-gray-400"
-                  aria-labelledby="dropdownLargeButton"
-                >
-                  <li>
-                    <a
-                      href="#"
-                      class="
-                        block
-                        py-2
-                        pr-4
-                        pl-3
-                        text-gray-700
-                        rounded
-                        hover:bg-gray-100
-                        md:hover:bg-transparent
-                        md:border-0
-                        md:hover:text-blue-700
-                        md:p-0
-                        dark:text-gray-400
-                      "
-                      >Dashboard</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      class="
-                        block
-                        py-2
-                        px-4
-                        hover:bg-gray-100
-                        dark:hover:bg-gray-600
-                        dark:hover:text-white
-                      "
-                      >Settings</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      class="
-                        block
-                        py-2
-                        px-4
-                        hover:bg-gray-100
-                        dark:hover:bg-gray-600
-                        dark:hover:text-white
-                      "
-                      >Earnings</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <a
-                href="#"
-                class="
-                  block
-                  py-2
-                  pr-4
-                  pl-3
-                  text-gray-700
-                  rounded
-                  hover:bg-gray-100
-                  md:hover:bg-transparent
-                  md:border-0
-                  md:hover:text-blue-700
-                  md:p-0
-                  dark:text-gray-400
-                  md:dark:hover:text-white
-                  dark:hover:bg-gray-700
-                  dark:hover:text-white
-                  md:dark:hover:bg-transparent
-                "
-                >Services</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="
-                  block
-                  py-2
-                  pr-4
-                  pl-3
-                  text-gray-700
-                  rounded
-                  hover:bg-gray-100
-                  md:hover:bg-transparent
-                  md:border-0
-                  md:hover:text-blue-700
-                  md:p-0
-                  dark:text-gray-400
-                  md:dark:hover:text-white
-                  dark:hover:bg-gray-700
-                  dark:hover:text-white
-                  md:dark:hover:bg-transparent
-                "
-                >Pricing</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="
-                  block
-                  py-2
-                  pr-4
-                  pl-3
-                  text-gray-700
-                  rounded
-                  hover:bg-gray-100
-                  md:hover:bg-transparent
-                  md:border-0
-                  md:hover:text-blue-700
-                  md:p-0
-                  dark:text-gray-400
-                  md:dark:hover:text-white
-                "
-                >Contact</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
     <!-- banner section  -->
-    <div class="banner">
+    <div class="banner mb-5">
       <div class="grid lg:grid-cols-2 grid-cols-1 gap-0">
         <div
           class="
-            p-10
+            p-12
             pb-0
             bg-[url('images/background_1.png')]
             bg-cover bg-left
@@ -517,24 +235,37 @@
         >
           <img
             class="pt-10 lg:max-w-md max-w-sm"
-            src="images/Picture 1.png"
+            src="images/Picture_1.png"
             alt=""
           />
         </div>
 
-        <div class="bg-[url('images/background_2.png')] bg-cover bg-right">
-          <div class="pt-32 bg-transparent">
-            <a href="#">
-              <h5 class="mb-4 text-4xl font-bold tracking-tight">
-                IT & Embedded Financial Services
-              </h5>
-            </a>
+        <div
+          class="
+            bg-[url('images/background_2.png')]
+            bg-contain bg-no-repeat bg-right-top
+          "
+        >
+          <div class="pt-28 bg-transparent max-w-xl">
+            <h2
+              class="
+                mb-3
+                text-4xl
+                font-semibold
+                tracking-tight
+                text-gray-900
+                dark:text-white
+              "
+            >
+              IT &amp; Embedded Financial Services
+            </h2>
             <!-- typewriting effect  -->
+            <!-- source: https://css-tricks.com/snippets/css/typewriter-effect/  -->
             <h1 class="mb-4 text-2xl">
               for
               <a
                 href=""
-                class="typewrite font-semibold text-3xl"
+                class="typewrite font-bold text-3xl"
                 data-period="2000"
                 data-type='[ "Nonprofits", "SMEs", "Startups" ]'
               >
@@ -542,9 +273,9 @@
               </a>
             </h1>
             <p class="mb-3 text-xl">
-              Pushing computation to where things happen
+              Pushing computation to where things happen...
             </p>
-            <p class="mb-5 font-normal max-w-xl text-gray-500">
+            <p class="mb-3 text-gray-500 dark:text-gray-400">
               Are you a business/starter planning to integrate IoT and/or
               blockchain into your operations? Get in touch and let's
               collaborate on win-win solutions!
@@ -554,39 +285,503 @@
               class="
                 inline-flex
                 items-center
-                py-2
-                px-3
-                text-sm
                 font-medium
-                text-center text-white
-                bg-blue-700
-                rounded-lg
-                hover:bg-blue-800
-                focus:ring-4
-                focus:outline-none
-                focus:ring-blue-300
-                dark:bg-blue-600
-                dark:hover:bg-blue-700
-                dark:focus:ring-blue-800
+                text-blue-600
+                hover:text-blue-800
+                dark:text-blue-500
+                dark:hover:text-blue-700
               "
             >
-              Read more
+              Learn more
               <svg
-                aria-hidden="true"
-                class="ml-2 -mr-1 w-4 h-4"
+                class="ml-1 w-6 h-6"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   fill-rule="evenodd"
-                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                  d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
                   clip-rule="evenodd"
                 ></path>
               </svg>
             </a>
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- card 3 -->
+
+    <div class="w-full">
+      <div class="sm:hidden"></div>
+
+      <div
+        id="fullWidthTabContent"
+        class="border-t border-gray-200 dark:border-gray-600"
+      >
+        <div
+          class="p-4 bg-white rounded-lg md:p-8 dark:bg-gray-800"
+          id="stats"
+          role="tabpanel"
+          aria-labelledby="stats-tab"
+        >
+          <dl
+            class="
+              grid grid-cols-2
+              gap-8
+              p-4
+              mx-auto
+              max-w-screen-xl
+              text-gray-900
+              sm:grid-cols-3
+              xl:grid-cols-6
+              dark:text-white
+              sm:p-8
+            "
+          >
+            <div class="flex flex-col justify-center items-center">
+              <dt class="mb-2 text-3xl font-extrabold">73M+</dt>
+              <dd class="font-light text-gray-500 dark:text-gray-400">
+                Developers
+              </dd>
+            </div>
+            <div class="flex flex-col justify-center items-center">
+              <dt class="mb-2 text-3xl font-extrabold">100M+</dt>
+              <dd class="font-light text-gray-500 dark:text-gray-400">
+                Public repositories
+              </dd>
+            </div>
+            <div class="flex flex-col justify-center items-center">
+              <dt class="mb-2 text-3xl font-extrabold">1000s</dt>
+              <dd class="font-light text-gray-500 dark:text-gray-400">
+                Open source projects
+              </dd>
+            </div>
+            <div class="flex flex-col justify-center items-center">
+              <dt class="mb-2 text-3xl font-extrabold">1B+</dt>
+              <dd class="font-light text-gray-500 dark:text-gray-400">
+                Contributors
+              </dd>
+            </div>
+            <div class="flex flex-col justify-center items-center">
+              <dt class="mb-2 text-3xl font-extrabold">90+</dt>
+              <dd class="font-light text-gray-500 dark:text-gray-400">
+                Top Forbes companies
+              </dd>
+            </div>
+            <div class="flex flex-col justify-center items-center">
+              <dt class="mb-2 text-3xl font-extrabold">4M+</dt>
+              <dd class="font-light text-gray-500 dark:text-gray-400">
+                Organizations
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </div>
+
+    <!-- component -->
+    <div
+      id="services"
+      class="section relative pt-20 pb-8 md:pt-16 md:pb-0 bg-white"
+    >
+      <div class="container xl:max-w-6xl mx-auto px-4">
+        <!-- Heading start -->
+        <header class="text-center mx-auto mb-12 lg:px-20">
+          <h2 class="text-2xl leading-normal mb-2 font-bold text-black">
+            What We Do
+          </h2>
+          <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 100 60"
+            style="margin: 0 auto; height: 35px"
+            xml:space="preserve"
+          >
+            <circle
+              cx="50.1"
+              cy="30.4"
+              r="5"
+              class="stroke-primary"
+              style="fill: transparent; stroke-width: 2; stroke-miterlimit: 10"
+            ></circle>
+            <line
+              x1="55.1"
+              y1="30.4"
+              x2="100"
+              y2="30.4"
+              class="stroke-primary"
+              style="stroke-width: 2; stroke-miterlimit: 10"
+            ></line>
+            <line
+              x1="45.1"
+              y1="30.4"
+              x2="0"
+              y2="30.4"
+              class="stroke-primary"
+              style="stroke-width: 2; stroke-miterlimit: 10"
+            ></line>
+          </svg>
+          <p
+            class="
+              text-gray-500
+              leading-relaxed
+              font-light
+              text-xl
+              mx-auto
+              pb-2
+            "
+          >
+            Save time managing advertising &amp; Content for your business.
+          </p>
+        </header>
+        <!-- End heading -->
+        <!-- row -->
+        <div class="grid lg:grid-cols-4 grid-cols-1 text-center">
+          <!-- Blockchain integration -->
+          <div
+            class="
+              px-4
+              max-w-full
+              w-full
+              sm:w-1/2
+              lg:w-1/2
+              lg:px-6
+              wow
+              fadeInUp
+            "
+            data-wow-duration="1s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-name: fadeInUp;
+            "
+          >
+            <!-- block -->
+            <div
+              class="
+                py-8
+                px-8
+                mb-12
+                bg-gray-50
+                border-b border-gray-100
+                rounded-lg
+                transform
+                transition
+                duration-300
+                ease-in-out
+                hover:-translate-y-2
+              "
+            >
+              <div class="inline-block text-gray-900 mb-4">
+                <!-- icon -->
+                <img class="h-8 w-8" src="images/icons/blockchain.png" alt="" />
+              </div>
+              <h3
+                class="
+                  text-lg
+                  leading-normal
+                  mb-2
+                  font-semibold
+                  text-black
+                  whitespace-nowrap
+                "
+              >
+                Blockchain integration
+              </h3>
+              <p class="text-gray-500">
+                Show to the world how impactful your operations are
+              </p>
+              <a
+                href="#"
+                class="
+                  inline-flex
+                  items-center
+                  text-sm
+                  font-medium
+                  text-blue-600
+                  hover:text-blue-800
+                  dark:text-blue-500
+                  dark:hover:text-blue-700
+                "
+              >
+                Learn more
+                <svg
+                  class="ml-1 w-4 h-4"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <!-- IoT apps -->
+          <div
+            class="
+              px-4
+              max-w-full
+              w-full
+              sm:w-1/2
+              lg:w-1/2
+              lg:px-6
+              wow
+              fadeInUp
+            "
+            data-wow-duration="1s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-name: fadeInUp;
+            "
+          >
+            <!-- block -->
+            <div
+              class="
+                py-8
+                px-8
+                mb-12
+                bg-gray-50
+                border-b border-gray-100
+                rounded-lg
+                transform
+                transition
+                duration-300
+                ease-in-out
+                hover:-translate-y-2
+              "
+            >
+              <div class="inline-block text-gray-900 mb-4">
+                <!-- icon -->
+                <img
+                  class="h-8 w-8"
+                  src="images/icons/internet-of-things.png"
+                  alt=""
+                />
+              </div>
+              <h3
+                class="
+                  text-lg
+                  leading-normal
+                  mb-2
+                  font-semibold
+                  text-black
+                  whitespace-nowrap
+                "
+              >
+                IoT apps
+              </h3>
+              <p class="text-gray-500">
+                Managed IoT services with open source apps
+              </p>
+              <a
+                href="#"
+                class="
+                  inline-flex
+                  items-center
+                  text-sm
+                  font-medium
+                  text-blue-600
+                  hover:text-blue-800
+                  dark:text-blue-500
+                  dark:hover:text-blue-700
+                "
+              >
+                Learn more
+                <svg
+                  class="ml-1 w-4 h-4"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <!-- Dedicated VPN -->
+          <div
+            class="
+              px-4
+              max-w-full
+              w-full
+              sm:w-1/2
+              lg:w-1/2
+              lg:px-6
+              wow
+              fadeInUp
+            "
+            data-wow-duration="1s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-name: fadeInUp;
+            "
+          >
+            <!-- block -->
+            <div
+              class="
+                py-8
+                px-8
+                mb-12
+                bg-gray-50
+                border-b border-gray-100
+                rounded-lg
+                transform
+                transition
+                duration-300
+                ease-in-out
+                hover:-translate-y-2
+              "
+            >
+              <div class="inline-block text-gray-900 mb-4">
+                <!-- icon -->
+                <img class="h-8 w-8" src="images/icons/vpn.png" alt="" />
+              </div>
+              <h3
+                class="
+                  text-lg
+                  leading-normal
+                  mb-2
+                  font-semibold
+                  text-black
+                  whitespace-nowrap
+                "
+              >
+                Dedicated VPN
+              </h3>
+              <p class="text-gray-500">Secure Virtual Private Network (VPN)</p>
+              <a
+                href="#"
+                class="
+                  inline-flex
+                  items-center
+                  text-sm
+                  font-medium
+                  text-blue-600
+                  hover:text-blue-800
+                  dark:text-blue-500
+                  dark:hover:text-blue-700
+                "
+              >
+                Learn more
+                <svg
+                  class="ml-1 w-4 h-4"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <!-- Cloud-native -->
+          <div
+            class="
+              px-4
+              max-w-full
+              w-full
+              sm:w-1/2
+              lg:w-1/2
+              lg:px-6
+              wow
+              fadeInUp
+            "
+            data-wow-duration="1s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-name: fadeInUp;
+            "
+          >
+            <!-- block -->
+            <div
+              class="
+                py-8
+                px-8
+                mb-12
+                bg-gray-50
+                border-b border-gray-100
+                rounded-lg
+                transform
+                transition
+                duration-300
+                ease-in-out
+                hover:-translate-y-2
+              "
+            >
+              <div class="inline-block text-gray-900 mb-4">
+                <!-- icon -->
+                <img
+                  class="h-8 w-8"
+                  src="images/icons/cloud-service.png"
+                  alt=""
+                />
+              </div>
+              <h3
+                class="
+                  text-lg
+                  leading-normal
+                  mb-2
+                  font-semibold
+                  text-black
+                  whitespace-nowrap
+                "
+              >
+                Cloud-native
+              </h3>
+              <p class="text-gray-500">
+                Run containerized apps on edge devices
+              </p>
+              <a
+                href="#"
+                class="
+                  inline-flex
+                  items-center
+                  text-sm
+                  font-medium
+                  text-blue-600
+                  hover:text-blue-800
+                  dark:text-blue-500
+                  dark:hover:text-blue-700
+                "
+              >
+                Learn more
+                <svg
+                  class="ml-1 w-4 h-4"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- end row -->
       </div>
     </div>
 
