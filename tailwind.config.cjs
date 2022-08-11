@@ -8,7 +8,7 @@ module.exports = {
         peekablue: "#2B75B3",
         darkgreyblue: "#375166",
         dovegrey: "#6A6F73",
-
+        tropicalblue: "#BBE3FE",
         metallicblue: "#45718C",
         carolinablue: "#7EB9EA",
         regalblue: "#184366",
