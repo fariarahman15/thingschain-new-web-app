@@ -12,7 +12,7 @@ module.exports = {
         metallicblue: "#45718C",
         carolinablue: "#7EB9EA",
         regalblue: "#184366",
-
+        whitwsmoke: "#F3F4F6",
         darkslategrey: "#233947",
         vistawhite: "#FAFAFA",
         plainwhite: "#FFFFFF",
