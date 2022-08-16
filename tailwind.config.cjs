@@ -9,10 +9,11 @@ module.exports = {
         darkgreyblue: "#375166",
         dovegrey: "#6A6F73",
         tropicalblue: "#BBE3FE",
-        metallicblue: "#45718C",
+
         carolinablue: "#7EB9EA",
-        regalblue: "#184366",
-        whitwsmoke: "#F3F4F6",
+        topaz: "#06b6d4",
+        iron: "#e5e7eb",
+        whitesmoke: "#F3F4F6",
         darkslategrey: "#233947",
         vistawhite: "#FAFAFA",
         plainwhite: "#FFFFFF",
@@ -22,3 +23,6 @@ module.exports = {
   },
   plugins: [],
 };
+
+// regalblue: "#184366",
+// metallicblue: "#45718C",
