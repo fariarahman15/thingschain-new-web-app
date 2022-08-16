@@ -12,7 +12,7 @@ module.exports = {
 
         carolinablue: "#7EB9EA",
         topaz: "#06b6d4",
-        iron: "#e5e7eb",
+        davygrey: "#4B5563",
         whitesmoke: "#F3F4F6",
         darkslategrey: "#233947",
         vistawhite: "#FAFAFA",
