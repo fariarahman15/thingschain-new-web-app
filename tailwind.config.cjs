@@ -9,7 +9,6 @@ module.exports = {
         darkgreyblue: "#375166",
         dovegrey: "#6A6F73",
         tropicalblue: "#BBE3FE",
-
         carolinablue: "#7EB9EA",
         topaz: "#06b6d4",
         davygrey: "#4B5563",
@@ -23,6 +22,3 @@ module.exports = {
   },
   plugins: [],
 };
-
-// regalblue: "#184366",
-// metallicblue: "#45718C",
